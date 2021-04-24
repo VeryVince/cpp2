@@ -32,7 +32,7 @@ class Truck : public Vehicle {
 
 		void displayInfo() const;
 
-		Truck(int, int, std::string);
+		Truck(int towCap, int year, std::string manu);
 };
 
 #endif

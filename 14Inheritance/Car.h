@@ -31,7 +31,7 @@ class Car : public Vehicle {
 
 		void displayInfo() const;
 
-		Car(int, int, std::string);
+		Car(int doors, int year, std::string manu);
 };
 
 #endif

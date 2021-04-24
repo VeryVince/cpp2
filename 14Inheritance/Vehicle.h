@@ -28,12 +28,12 @@ class Vehicle {
 		int getYear() const;
 		std::string getManufacturer() const;
 
-		void setYear(int);
+		void setYear(int year);
 		void setManufacturer(std::string);
 
 		void displayInfo() const;
 
-		Vehicle(int, std::string);
+		Vehicle(int year, std::string manu);
 };
 
 #endif
