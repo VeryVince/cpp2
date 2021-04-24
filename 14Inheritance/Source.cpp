@@ -4,6 +4,9 @@
 	Program Name: CIS 1202
 	Description: funcs for Trucks
 
+	Fun Stuff:
+		So 
+
 	Your task should you choose to accept:
 	4.	Write a main function to test the classes and methods.
 		a.	Get input from the user for manufacturer and year built, 
@@ -35,8 +38,9 @@ int main() {
 	cin >> year;
 	cout << "Enter the manufacturer: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n'); //bad \n bad!!
-	cin >> manu;
-	cout << endl;
+	getline(cin, manu);
+
+	cout << "Displaying Info:\n";
 
 	Vehicle testV(year,manu);
 	testV.displayInfo();
@@ -46,10 +50,11 @@ int main() {
 	cin >> year;
 	cout << "Enter the manufacturer: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n'); //bad \n bad!!
-	cin >> manu;
+	getline(cin, manu);
 	cout << "Enter the # of doors: ";
 	cin >> doors;
-	cout << endl;
+
+	cout << "Displaying Info:\n";
 
 	Car testC(doors,year,manu);
 	testC.displayInfo();
@@ -57,16 +62,18 @@ int main() {
 	cout << "\n\nTruck:"
 		<< "\nEnter year: ";
 	cin >> year;
-	cout << "Enter the manufacturer: ";
+	cout << "Enter the Manufacturer: ";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n'); //bad \n bad!!
-	cin >> manu;
+	getline(cin, manu);
 	cout << "Enter the Towing Capacity: ";
 	cin >> towCap;
-	cout << endl;
+
+	cout << "Displaying Info:\n";
 
 	Truck testT(towCap,year,manu);
 	testT.displayInfo();
 
+	cout << endl;
 	system("pause");
 	return 0;
 }

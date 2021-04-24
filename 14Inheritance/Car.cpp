@@ -25,7 +25,7 @@ void Car::setDoors(int d){ doors = d; }
 int Car::getDoors() const{ return doors; }
 
 void Car::displayInfo() const{
-	cout << endl << getDoors() << " Doors";
+	cout << getDoors() << " Door" + (string)((doors==1)?"":"s") << endl;
 	Vehicle::displayInfo();
 }
 
