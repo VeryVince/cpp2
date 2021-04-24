@@ -1,7 +1,7 @@
 /*
     Your Name: Vincent Apanovitch
-    Date:
-    Program Name:
+    Date:  4/24/21
+    Program Name: CIS 1201
     Description:
     Resources:
 */

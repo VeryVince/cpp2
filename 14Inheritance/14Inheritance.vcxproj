@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Inheritance.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
