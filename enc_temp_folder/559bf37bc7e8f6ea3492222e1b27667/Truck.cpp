@@ -11,6 +11,7 @@
 		a.	Define a member variable for the towing capacity
 		b.	Define a constructor and appropriate getters and setters
 		c.	Define a displayInfo method to display the contents of the object (call the base class method to display the Vehicle info, then display the Truck info)
+
 */
 
 #include <iostream>
@@ -19,6 +20,7 @@
 using namespace std;
 
 void Truck::setTowCap(int tc) { towCap = tc; }
+
 int Truck::getTowCap() const { return towCap; }
 
 void Truck::displayInfo() const {

@@ -11,6 +11,7 @@
 		a.	Define a member variable for the number of doors
 		b.	Define a constructor and appropriate getters and setters
 		c.	Define a displayInfo method to display the contents of the object (call the base class method to display the Vehicle info, then display the Car info)
+
 */
 
 #include <iostream>
@@ -20,6 +21,7 @@ using namespace std;
 
 
 void Car::setDoors(int d){ doors = d; }
+
 int Car::getDoors() const{ return doors; }
 
 void Car::displayInfo() const{

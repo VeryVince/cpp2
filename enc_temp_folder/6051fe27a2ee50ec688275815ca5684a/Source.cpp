@@ -5,8 +5,7 @@
 	Description: funcs for Trucks
 
 	Fun Stuff:
-		Because I have a different account for github, I had to go into Credential Manager in Windows CP to have acess to my github....
-		whyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+		So 
 
 	Your task should you choose to accept:
 	4.	Write a main function to test the classes and methods.
