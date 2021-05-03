@@ -2,8 +2,10 @@
     Your Name: Vincent Apanovitch
     Date: 5/2/21
     Program Name: CIS 1202
-    Description:
-    Resources:
+    Notes: 
+    I hate windows and github and vs. I spent an hour trying to log in using various ways and nothing was working. 
+    I spent more time with github than this code *sigh*
+    I had to sign in using vs code and thankfully that worked >:{
 */
 
 #include <iostream>
