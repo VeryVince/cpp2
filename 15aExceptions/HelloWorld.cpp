@@ -17,12 +17,29 @@ int main()
 {
     cout << character('a', 1);
 
-    cout << character('z', 1);
+    
+    try {
+        cout << character('z', 1);
+    } 
+    catch (const char* e){
+        cout << "\nERROR: " << e;
+    }
+    
+    try {
+        cout << character('a', -15);
+    }
+    catch (const char* e) {
+        cout << "\nERROR: " << e;
+    }
 
-    cout << character('a', -15);
+    try {
+        cout << character('?', 5);
+    }
+    catch (const char* e) {
+        cout << "\nERROR: " << e;
+    }
 
-    cout << character('?', 5);
-
+    cout << endl;
     system("pause");
     return 0;
 }
