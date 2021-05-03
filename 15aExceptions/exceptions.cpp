@@ -6,10 +6,16 @@
     I hate windows and github and vs. I spent an hour trying to log in using various ways and nothing was working. 
     I spent more time with github than this code *sigh*
     I had to sign in using vs code and thankfully that worked >:{
+
+
+    1.	Write a function according to this prototype: char character(char start, int offset);
+    2.	If start is not a letter (A-Z, a-z), throw an invalidCharacterExcpeption.
+    3.	If the target is not a letter, throw an invalidRangeException.
+    4.	Otherwise, return the letter described by the start and offset.
+    5.	Build a driver in main to test this function and display its output.  Use try/catch blocks to call your function with different start and offset values
 */
 
 #include <iostream>
-#include <string>
 using namespace std;
 
 

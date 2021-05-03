@@ -3,6 +3,11 @@
     Date: 5/2/21
     Program Name: CIS 1202
     Notes: Looks like I still have to push using vs code! Legit wayyy too frustrating.
+
+    2.	Define functions named "half" that accept a single argument, and return a value of that same type.
+    3.	For floating-point types (float, double), return half of the value passed in as argument.
+    4.	For integer types (int), return half the value, rounded according to usual rounding rules (0.5 or higher, round up; otherwise round down.)
+    5.	Build a driver in main to test these functions and display their output.
 */
 
 #include <iostream>
